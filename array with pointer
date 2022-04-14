@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main()
+{int no[5]={1,2,3,5,4};
+int*p=no;
+cout<<"Enter elements:"<<*p<<*(p+1)<<*(p+2)<<*(p+3)<<*(p+4);
+cout<<"Your elements:"<<*p<<*(p+1)<<*(p+2)<<*(p+3)<<*(p+4);
+return 0;
+}
